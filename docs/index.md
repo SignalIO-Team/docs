@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## SignalIO Development Board Documentation
 
 You can use the [editor on GitHub](https://github.com/SignalIO-Team/docs/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
