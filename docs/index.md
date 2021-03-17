@@ -13,6 +13,30 @@ SignalIO Development Board is a device based on ESP32 SoC for IoT application de
 
 The board is designed for non-professional users and is recommended for use in prototyping IoT systems, creating device concepts and learning programming and electronics. Improper use of the device can have unintended consequences for which the company is not responsible.
 
+The board is based on a ESP32-WROOM SoC developed by Espressif with 40 nm technology. ESP32-WROOM integrates the following features:
+
+-	Microcontroller: Tensilica 32-bit Single-/Dual-core CPU Xtensa LX6
+-	Operating Voltage: 3.3V
+-	DIO: 25
+-	ADC: 6
+-	DAC: 2
+-	UARTs: 3
+-	SPIs: 2
+-	I2Cs: 3
+-	I2Ss: 2
+-	Flash Memory: 4 MB
+-	SRAM: 520 KB
+-	Clock Speed: 240 Mhz
+-	Wi-Fi: IEEE 802.11 b/g/n/e/i, Bluetooth/BLE:
+  -	Integrated TR switch, balun, LNA, power amplifier and matching network
+  -	WEP or WPA/WPA2 authentication, or open networks
+-	Special features:
+  -	In-built Hall sensor
+  -	In-built temperature sensor (internal temperature monitoring)
+  -	Touch sensor interface 
+
+More detailed information about SoC can be found on Espressif official documentation.
+
 
 ### Firts Boot
 
