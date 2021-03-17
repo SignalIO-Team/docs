@@ -37,6 +37,7 @@ The board is based on a ESP32-WROOM SoC developed by Espressif with 40 nm techno
 
 More detailed information about SoC can be found on Espressif official documentation (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf).
 
+Device have 28 general purpose input/output (GPIO) pins. Most of it can be used as digital and analog I/O. Next picture illustrates pinmap diagram of the device.
 
 ### Firts Boot
 
