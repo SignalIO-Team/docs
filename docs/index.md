@@ -44,6 +44,15 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ### SignalIO-Simplify
 
+SignalIO Simplify - Simple utility for SignalIO Development Board Functions:
+
+-OTA firmware and SPIFFS image update
+-Upload firmware via USB-UART
+-Serial port monitor
+-Erase flash
+
+![image](SignalIO-Simplify.png)
+
 
 ### Upload New Firmware via SignalIO-Simplify
 
