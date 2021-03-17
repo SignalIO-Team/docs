@@ -57,6 +57,24 @@ SignalIO Simplify - Simple utility for SignalIO Development Board Functions:
 
 ![image](SignalIO-Simplify.png)
 
+This utility allows to upload new firmware and print debugging information into serial monitor. Firmware folder stores firmware.bin (can be redefined in config file) image, data folder stores spiffs.bin (can be redefined in config file) image and config folder stores config.json file.
+JSON Config structure:
+
+```json
+{
+  "port": "YourSerialPort",
+  "port_speed": "9600",
+  "ota_ip":"YourDeviceIP",
+  "ota_password":"YourDevicePassword",
+  "ota_username": "YourDeviceUsername",
+  "firmware_path": "firmware/firmware.bin",
+  "spiffs_path": "data/spiffs.bin",
+  "flash":"4MB",
+  "start_addr":"0x10000"
+}
+```
+
+This software also require python 2.8^, esptool.py and some external libraries which is listed in requirements.txt file.
 
 ### Upload New Firmware via SignalIO-Simplify
 
