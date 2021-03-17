@@ -39,6 +39,9 @@ More detailed information about SoC can be found on Espressif official documenta
 
 Device have 28 general purpose input/output (GPIO) pins. Most of it can be used as digital and analog I/O. Next picture illustrates pinmap diagram of the device.
 
+![image](Board Diagram.jpg)
+
+
 ### Firts Boot
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
