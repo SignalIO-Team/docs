@@ -4,34 +4,34 @@ You can use the [editor on GitHub](https://github.com/SignalIO-Team/docs/edit/gh
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### SignalIO Board description
+
+
+### Firts Boot
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### SignalIO-Simplify
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Upload New Firmware via SignalIO-Simplify
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Debugging via UART with SignalIO-Simplify
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Setup Wi-Fi connection
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SignalIO-Team/docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Configuration menu
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### SignalIO Web App Connetion
+
+
+### Changing access credentials
+
+
+### OTA Updates
+
+
