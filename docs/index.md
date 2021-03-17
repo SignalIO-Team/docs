@@ -35,7 +35,7 @@ The board is based on a ESP32-WROOM SoC developed by Espressif with 40 nm techno
   -	In-built temperature sensor (internal temperature monitoring)
   -	Touch sensor interface 
 
-More detailed information about SoC can be found on Espressif official documentation.
+More detailed information about SoC can be found on Espressif official documentation (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf).
 
 
 ### Firts Boot
