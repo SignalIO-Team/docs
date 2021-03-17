@@ -90,6 +90,11 @@ This software also require python 2.8^, esptool.py and some external libraries w
 
 ### SignalIO Web App Connetion
 
+![image](platform-1024x576.png)
+
+![image](MQTT-config-platform.png)
+
+![image](platform.png)
 
 ### Changing access credentials
 
