@@ -44,7 +44,7 @@ Device have 28 general purpose input/output (GPIO) pins. Most of it can be used 
 
 ### Firts Boot
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
 
 ### SignalIO-Simplify
 
