@@ -2,6 +2,7 @@
 
 ![image](Board-3D.jpg)
 
+This documentation describes basic aspects of working with SignalIO Development Board and its firmware.
 ### SignalIO Board description
 
 
