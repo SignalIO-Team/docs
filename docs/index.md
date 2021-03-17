@@ -1,6 +1,6 @@
 ## SignalIO Development Board Documentation
 
-![image](Board 3D.jpg)
+![image](Board-3D.jpg)
 
 ### SignalIO Board description
 
