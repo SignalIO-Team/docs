@@ -83,6 +83,33 @@ JSON Config structure:
 
 This software also require python 2.8^, esptool.py and some external libraries which is listed in requirements.txt file.
 
+To start the utility use tis command:
+
+Windows:
+```
+python __init__.py
+```
+
+Linux/Unix:
+
+If you need to use serial debugger on Linux/Unix system you should also check if serial port available with command
+
+```
+ls /dev/tty*
+```
+
+Output should be: /dev/ttyUSB* or /dev/ttyACM*
+You should also set ACL for the serial port with command
+
+```
+sudo chmod 777 /dev/ttyUSB*
+```
+
+```
+sudo python __init__.py
+```
+
+
 ### Upload New Firmware via SignalIO-Simplify
 
 
