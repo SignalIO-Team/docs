@@ -55,7 +55,8 @@ Sometimes the device may come without firmware. In this case, the device must be
 
 ### SignalIO-Simplify
 
-SignalIO Simplify - Simple utility for SignalIO Development Board Functions:
+SignalIO Simplify - simple utility for SignalIO Development Board. 
+Its functions:
 
 - OTA firmware and SPIFFS image update
 - Upload firmware via USB-UART
