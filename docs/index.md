@@ -132,6 +132,7 @@ In the first case, it is enough to configure the device in the firmware update m
 <span style="color:red">**NOTE**</span>
 
 At the first start, it is recommended to download the firmware via Flash Firmware, as this will allow you to correctly mount the file system on the device. Alternatively, you can also use esptool.
+
 ---
 
 ### Debugging via UART with SignalIO-Simplify
