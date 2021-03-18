@@ -1,4 +1,4 @@
-## SignalIO Development Board Documentation
+## Getting started with SignalIO Development Board
 
 ![image](Board-3D.jpg)
 
