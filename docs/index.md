@@ -126,6 +126,7 @@ To use serial debugger you need to connect the board to the PC and setup serial 
 First is to connect it directly via USB port. Second is to connect it with programmer with the TX and RX pins. This method can be used in case if inbuilt USB-UART prog In second case you need to use the USB-UART-TTL programmer. The RX TX pins of the programmer must be connected in accordance with the next scheme:
 
  Programmer pin     Board pin
+ 
     TX       -->       RX            
     RX       -->       TX            
     GND      -->       GND           
