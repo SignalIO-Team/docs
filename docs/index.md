@@ -154,6 +154,7 @@ After connecting the board to the PC, you need to configure the SignalIO Simplif
 
 ### Configuration menu
 
+![image](configs_device.png)
 
 ### SignalIO Web App Connetion
 
