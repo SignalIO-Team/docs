@@ -119,6 +119,20 @@ SignalIO Simplify Utility currently only been tested with Linux/Unix operation s
 
 ### Upload New Firmware via SignalIO-Simplify
 
+There are two ways to flash a device using SignalIO Simplify: 
+- Firmware with OTA update 
+- Direct upload of the firmware as a binary file into the device memory (wrapper over esptool) 
+
+In the first case, it is enough to configure the device in the firmware update mode in the settings item and select the OTA update option. The binary file located in the firmware folder will be loaded into the device memory after a while. For more information on OTA updates, see OTA Updates. In the case of uploading a binary file, the device must be connected directly to the PC. Next, select the Flash Firmware option, after which the firmware will be loaded into the device's memory. It should also be remembered that the firmware consists of two binary files: 
+
+- Firmware.bin - the main firmware; 
+- SPIFFS.bin - an image of the SPIFFS file system with the files necessary for work.
+
+---
+<span style="color:red">**NOTE**</span>
+
+At the first start, it is recommended to download the firmware via Flash Firmware, as this will allow you to correctly mount the file system on the device. Alternatively, you can also use esptool.
+---
 
 ### Debugging via UART with SignalIO-Simplify
 
