@@ -44,7 +44,14 @@ Device have 28 general purpose input/output (GPIO) pins. Most of it can be used 
 
 ### Firts Boot
 
+After power is applied, the device will give a signal in the form of LED blinking with an interval of 0.5 seconds. When you start the device for the first time, you need to set up a Wi-Fi network connection. After turning on the power and initializing the interfaces, the device will enter the Wi-Fi access point mode, after connecting to the access point, the device will give access to the web interface for configuring Wi-Fi connections. After the Wi-Fi connection is established, the system will give access to the interface configuration menu and network interactions. When entering the configuration menu for the first time, the system will ask for a username and password. The standard login is Signalio_sensor, the password is root1234 (it is highly recommended to change it in the process of use). 
 
+The device comes with two types of SignalIO proprietary firmware: 
+
+- Basic firmware 
+- OTA firmware 
+
+Sometimes the device may come without firmware. In this case, the device must be flashed with the current firmware version using the SignalIO Simplified utility. The current firmware version can be obtained on the project's GIthub page - https://github.com/SignalIO-Team. 
 
 ### SignalIO-Simplify
 
