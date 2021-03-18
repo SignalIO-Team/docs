@@ -110,6 +110,12 @@ Then you can run the utility
 sudo python __init__.py
 ```
 
+---
+**NOTE**
+
+SignalIO Simplify Utility currently only been tested with Linux/Unix operation system. As an alternative to SignalIO Simplify, esptool can be used in the Windows system.
+
+---
 
 ### Upload New Firmware via SignalIO-Simplify
 
