@@ -111,8 +111,7 @@ sudo python __init__.py
 ```
 
 ---
-<span style="color:red">
-**NOTE**
+<span style="color:red">**NOTE**
 
 SignalIO Simplify Utility currently only been tested with Linux/Unix operation system. As an alternative to SignalIO Simplify, esptool can be used in the Windows system.
 </span>
