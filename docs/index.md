@@ -125,9 +125,10 @@ SignalIO Simplify Utility currently only been tested with Linux/Unix operation s
 To use serial debugger you need to connect the board to the PC and setup serial monitor. SignalIO development board allows user to debug it via UART in few ways.
 First is to connect it directly via USB port. Second is to connect it with programmer with the TX and RX pins. This method can be used in case if inbuilt USB-UART prog In second case you need to use the USB-UART-TTL programmer. The RX TX pins of the programmer must be connected in accordance with the next scheme:
 
- TX       -->       RX            
- RX       -->       TX            
- GND      -->       GND           
+ Programmer pin     Board pin
+    TX       -->       RX            
+    RX       -->       TX            
+    GND      -->       GND           
 
 After connecting the board to the PC, you need to configure the SignalIO Simplify utility by entering the necessary parameters in the config.json file, launch the utility and select the Serial debug option, after which debug information will appear in the port monitor. 
 
