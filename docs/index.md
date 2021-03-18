@@ -105,6 +105,7 @@ You should also set ACL for the serial port with command
 sudo chmod 777 /dev/ttyUSB*
 ```
 
+Then you can run the utility
 ```
 sudo python __init__.py
 ```
