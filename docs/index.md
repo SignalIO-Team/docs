@@ -232,9 +232,29 @@ The system provides the ability to connect a number of digital, analog sensors a
 
 ### SignalIO Web App Connetion
 
+To connect the device to the SignalIO Web Platform first of all you need to login to the dashboard.
+
 ![image](platform-1024x576.png)
 
+Next step is to add a new “plugin” to your dashboard and then connect the device to it. To do so you need to press on the “plus” sign at the bottom of the dashboard working panel. Then you need to proceed through all of the options. The process is shown in the following pictures:
+
+Picture 1
+
+![image](plugin_setup_1.jpg)
+
+Picture 2
+
+![image](plugin_setup_2.jpg)
+
+Picture 3
+
+![image](plugin_setup_3.jpg)
+
+After that MQTT credentials should appear in “Device” menu. To connect to the platform you need to use generated topic, username, password and device alias.
+
 ![image](MQTT-config-platform.png)
+
+Finally, device should publish some events and its should appear on the dashboard.
 
 ![image](platform.png)
 
