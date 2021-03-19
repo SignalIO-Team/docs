@@ -189,7 +189,7 @@ At this point, there are three main cards with configurations:
 
 **Interface config**
 
-![image](configs_device.jpg)
+![image](configs_device.png)
 
 In this card, the interfaces of the microcontroller are configured and the modules with which the device will work are selected.
 
