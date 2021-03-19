@@ -173,7 +173,62 @@ If you need to reset the existing Wi-Fi network settings, you can use the “FAC
 
 ### Configuration menu
 
+The configuration menu is the main part of the device configuration system. In this menu it is possible:
+
+- Configure connections to MQTT 3.3.1
+- Select the required module and configure the GPIO port
+- Set “DeepSleep” mode settings
+- Set up an account
+- Initialize OTA updates 
+
+To configure the main interfaces of the device, go to the “Config” item.
+At this point, there are three main cards with configurations:
+- Interface config
+- MQTT config
+- DeepSleep config 
+
+**Interface config**
+
 ![image](configs_device.png)
+
+In this card, the interfaces of the microcontroller are configured and the modules with which the device will work are selected.
+
+This card consists of the following fields: 
+
+- Device Alias - device identificator
+- Sensor Type - list of available sensor and actuators
+- Sensor Port - list of available digital/analog IO
+- Save actuator state - flag for saving actuator state (for example relay state can be saved and restored in case of power fault)
+
+**MQTT**
+
+![image](MQTT_page.png)
+
+This card is needed to set up an MQTT connection. MQTT is the main communication protocol of the system. To configure it, you must fill in all the fields in the MQTT menu item.
+
+The card consists of the following fields: 
+
+- MQTT Broker - URL/IP of the MQTT broker
+- MQTT User - username for MQTT broker
+- MQTT Password - password for broker
+- MQTT Topic - topic on which device will publish data
+- MQTT Message - message that will trigger the actuator device
+
+**DeepSleep**
+
+![image](deepsleep_page.png)
+
+This card is needed to configure DeepSleep operating mode
+
+The card consists of the following fields: 
+
+- DeepSleep Type - list of available DeepSleep modes (can be used as timer, in this case device will be triggered by the internal interruption, or as Trigger, in this case device will be triggered by the external interruption)
+- DeepSleep Timer - interval with which device will be triggered with the internal interruptor
+- Enable DeepSleep - enable or disable DeepSleep
+
+**Module selection**
+
+The system provides the ability to connect a number of digital, analog sensors and actuators (for a complete, currently, the list of devices supported by the firmware is given in the datasheet). 
 
 ### SignalIO Web App Connetion
 
