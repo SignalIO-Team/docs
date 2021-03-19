@@ -240,7 +240,8 @@ The system provides the ability to connect a number of digital, analog sensors a
 
 ### Changing access credentials
 
+![image](change_creds.jpg)
 
 ### OTA Updates
 
-
+![image](ota_update.jpg)
