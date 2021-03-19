@@ -254,14 +254,32 @@ After that MQTT credentials should appear in “Device” menu. To connect to th
 
 ![image](MQTT-config-platform.png)
 
-Finally, device should publish some events and its should appear on the dashboard.
+Finally, the device should publish some events and it should appear on the dashboard.
 
 ![image](platform.png)
 
 ### Changing access credentials
 
+To change device access credentials you should simply press on button **Change Auth Creds in **Board settings** section. After that modal window should appear.
+
 ![image](change_creds.jpg)
 
+Next you need to fill all of the necessary fields you need to press **Save changes** button and then reboot the device via **RST** button.
+After the reboot you should be able to login into your device with new credentials.
+It is also possible to reset auth credentials with the **FACTORY RESET** button. You simply need to press **FACT** button and wait until the procedure is complete.
+
+
 ### OTA Updates
+To perform OTA update you will need to  press on button **OTA Update ** in **Board settings** section. After that page with an OTA message will appear.
 
 ![image](ota_update.jpg)
+
+Next you'll need a SignalIO-Simplify utility. 
+
+To perform OTA update with the SignalIO-Simplify you need to download the SignalIO Firmware from the project GitHub and put it into directory **firmware** (the path can be changed in config.json file). Next you need to put SPIFFS.bin into “data folder” (this path can also be changed). 
+
+Then you need to perform next actions:
+- First of all you should upload SPIFFS image into the device by choosing option **OTA update SPIFFS**
+- Then you need to reboot the device and initialise OTA Update again
+- At last you need to upload firmware.bin by choosing option **OTA update** and reboot the device.
+
