@@ -189,7 +189,7 @@ At this point, there are three main cards with configurations:
 
 **Interface config**
 
-![image](configs_device.png)
+![image](configs_device.jpg)
 
 In this card, the interfaces of the microcontroller are configured and the modules with which the device will work are selected.
 
@@ -202,7 +202,7 @@ This card consists of the following fields:
 
 **MQTT**
 
-![image](MQTT_page.png)
+![image](MQTT_page.jpg)
 
 This card is needed to set up an MQTT connection. MQTT is the main communication protocol of the system. To configure it, you must fill in all the fields in the MQTT menu item.
 
@@ -216,7 +216,7 @@ The card consists of the following fields:
 
 **DeepSleep**
 
-![image](deepsleep_page.png)
+![image](deepsleep_page.jpg)
 
 This card is needed to configure DeepSleep operating mode
 
