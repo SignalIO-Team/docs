@@ -37,14 +37,14 @@ The board is based on a ESP32-WROOM SoC developed by Espressif with 40 nm techno
 
 More detailed information about SoC can be found on Espressif official documentation (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf).
 
-Device have 28 general purpose input/output (GPIO) pins. Most of it can be used as digital and analog I/O. Next picture illustrates pinmap diagram of the device.
+Device have 28 general purpose input/output (GPIO) pins. Most of it can be used as digital and analog I/O. The Next picture illustrates pinmap diagram of the device.
 
 ![image](Board Diagram.jpg)
 
 
-### Firts Boot
+### First Boot
 
-After power is applied, the device will give a signal in the form of LED blinking with an interval of 0.5 seconds. When you start the device for the first time, you need to set up a Wi-Fi network connection. After turning on the power and initializing the interfaces, the device will enter the Wi-Fi access point mode, after connecting to the access point, the device will give access to the web interface for configuring Wi-Fi connections. After the Wi-Fi connection is established, the system will give access to the interface configuration menu and network interactions. When entering the configuration menu for the first time, the system will ask for a username and password. The standard login is Signalio_sensor, the password is root1234 (it is highly recommended to change it in the process of use). 
+After power is applied, the device will give a signal in the form of LED blinking with an interval of 0.5 seconds. When you start the device for the first time, you need to set up a Wi-Fi network connection. After turning on the power and initializing the interfaces, the device will enter the Wi-Fi access point mode, after connecting to the access point, the device will give access to the web interface for configuring Wi-Fi connections. After the Wi-Fi connection is established, the system will give access to the interface configuration menu and network interactions. When entering the configuration menu for the first time, the system will ask for a username and password. The standard login is Signalio_sensor, the password is root1234 (it is highly recommended changing it in the process of use). 
 
 The device comes with two types of SignalIO proprietary firmware: 
 
@@ -65,7 +65,7 @@ Its functions:
 
 ![image](SignalIO-Simplify.png)
 
-This utility allows to upload new firmware and print debugging information into serial monitor. Firmware folder stores firmware.bin (can be redefined in config file) image, data folder stores spiffs.bin (can be redefined in config file) image and config folder stores config.json file.
+This utility allows you to upload new firmware and print debugging information into serial monitor. Firmware folder stores firmware.bin (can be redefined in config file) image, data folder stores spiffs.bin (can be redefined in config file) image and config folder stores config.json file.
 JSON Config structure:
 
 ```json
@@ -84,7 +84,7 @@ JSON Config structure:
 
 This software also require python 2.8^, esptool.py and some external libraries which is listed in requirements.txt file.
 
-To start the utility use tis command:
+To start the utility use this command:
 
 Windows:
 ```
@@ -114,7 +114,7 @@ sudo python __init__.py
 ---
 <span style="color:red">**NOTE**</span>
 
-SignalIO Simplify Utility currently only been tested with Linux/Unix operation system. As an alternative to SignalIO Simplify, esptool can be used in the Windows system.
+SignalIO Simplify Utility currently only been tested with Linux/Unix operating system. As an alternative to SignalIO Simplify, esptool can be used in the Windows system.
 
 ---
 
@@ -139,7 +139,7 @@ At the first start, it is recommended to upload the firmware via Flash Firmware,
 ### Debugging via UART with SignalIO-Simplify
 
 To use serial debugger you need to connect the board to the PC and setup serial monitor. SignalIO development board allows user to debug it via UART in few ways.
-First is to connect it directly via USB port. Second is to connect it with programmer with the TX and RX pins. This method can be used in case if inbuilt USB-UART prog In second case you need to use the USB-UART-TTL programmer. The RX TX pins of the programmer must be connected in accordance with the next scheme:
+First is to connect it directly via USB port. The Second is to connect it with the programmer with the TX and RX pins. This method can be used in case if inbuilt USB-UART prog In the second case you need to use the USB-UART-TTL programmer. The RX TX pins of the programmer must be connected in accordance with the next scheme:
 
  Programmer pin  ----  Board pin
  
@@ -195,7 +195,7 @@ In this card, the interfaces of the microcontroller are configured and the modul
 
 This card consists of the following fields: 
 
-- Device Alias - device identificator
+- Device Alias - device identifier
 - Sensor Type - list of available sensor and actuators
 - Sensor Port - list of available digital/analog IO
 - Save actuator state - flag for saving actuator state (for example relay state can be saved and restored in case of power fault)
@@ -232,11 +232,11 @@ The system provides the ability to connect a number of digital, analog sensors a
 
 ### SignalIO Web App Connetion
 
-To connect the device to the SignalIO Web Platform first of all you need to login to the dashboard.
+To connect the device to the SignalIO Web Platform first you need to login to the dashboard.
 
 ![image](platform-1024x576.png)
 
-Next step is to add a new “plugin” to your dashboard and then connect the device to it. To do so you need to press on the “plus” sign at the bottom of the dashboard working panel. Then you need to proceed through all of the options. The process is shown in the following pictures:
+The Next step is to add a new “plugin” to your dashboard and then connect the device to it. To do so you need to press on the “plus” sign at the bottom of the dashboard working panel. Then you need to proceed through all of the options. The process is shown in the following pictures:
 
 Picture 1
 
@@ -254,7 +254,7 @@ After that MQTT credentials should appear in “Device” menu. To connect to th
 
 ![image](MQTT-config-platform.png)
 
-Finally, the device should publish some events and it should appear on the dashboard.
+Finally, the device should publish some events, and it should appear on the dashboard.
 
 ![image](platform.png)
 
@@ -278,8 +278,8 @@ Next you'll need a SignalIO-Simplify utility.
 
 To perform OTA update with the SignalIO-Simplify you need to download the SignalIO Firmware from the project GitHub and put it into directory **firmware** (the path can be changed in config.json file). Next you need to put SPIFFS.bin into “data folder” (this path can also be changed). 
 
-Then you need to perform next actions:
-- First of all you should upload SPIFFS image into the device by choosing option **OTA update SPIFFS**
-- Then you need to reboot the device and initialise OTA Update again
+Then you need to perform the next actions:
+- First you should upload SPIFFS image into the device by choosing option **OTA update SPIFFS**
+- Then you need to reboot the device and initialize OTA Update again
 - At last you need to upload firmware.bin by choosing option **OTA update** and reboot the device.
 
