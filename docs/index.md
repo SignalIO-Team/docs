@@ -151,6 +151,25 @@ After connecting the board to the PC, you need to configure the SignalIO Simplif
 
 ### Setup Wi-Fi connection
 
+The Wi-Fi network is configured when the device is turned on for the first time. At the first start, the device will try to connect to the Wi-Fi network and if it fails, it will open the Wi-Fi manager.
+
+![image](wifi_config_menu.jpg)
+
+Wi-Fi manager will scan existing Wi-Fi networks and display them on the monitor. After that, the manager will launch a local web server with a form for entering the SSID and password.
+
+After entering and checking all the parameters, press the "SAVE" button. If the configuration has been saved in the device memory correctly, the following message will be displayed.
+
+![image](wifi_ok.jpg)
+
+If an error occurs while saving the configuration, the following message will be displayed
+
+![image](wifi_fail.jpg)
+
+After successful operation of setting up a Wi-Fi network, restart the device by pressing the “RST” button.
+
+After rebooting, the device will automatically connect to the Wi-Fi network.
+If you need to reset the existing Wi-Fi network settings, you can use the “FACTORY RESET” option by pressing the “FACT” button 
+
 
 ### Configuration menu
 
